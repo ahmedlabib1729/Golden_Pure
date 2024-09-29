@@ -1,0 +1,54 @@
+<odoo>
+    <template id="custom_external_layout">
+        <!-- نسخ القالب الأصلي -->
+                 <div t-attf-class="header o_company_#{company.id}_layout" t-att-style="report_header_style">
+                           <div class="o_clean_header">
+                               <div class="row">
+                            <!-- العمود الأول للصورة الأولى -->
+                            <div class="col-2">
+                                <img src="/delivery_form/static/src/img/Picture1.png" alt="Logo" style="max-height: 100px;"/>
+                            </div>
+
+                            <!-- العمود الثاني للنص -->
+                            <div class="col-8">
+                                <h3 style="text-align: center; vertical-align: baseline; max-height: 100px;">  </h3>
+                            </div>
+
+                            <!-- العمود الثالث للصورة الثانية -->
+                            <div class="col-1"  style="text-align: right;">
+                                <img src="/delivery_form/static/src/img/Picture2.png" alt="Logo" style="max-height: 100px;"/>
+                            </div>
+                        </div>
+
+                    </div>
+         </div>
+
+
+
+        <!-- محتوى القالب الأصلي هنا -->
+        <div t-attf-class="article o_report_layout_standard o_company_#{company.id}_layout {{  'o_report_layout_background' if company.layout_background in ['Geometric', 'Custom']  else  '' }}" t-attf-style="background-image: url({{ 'data:image/png;base64,%s' % company.layout_background_image.decode('utf-8') if company.layout_background_image and company.layout_background == 'Custom' else '/base/static/img/bg_background_template.jpg' if company.layout_background == 'Geometric' else ''}});" t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id">
+            <div t-call="web.address_layout"/>
+            <div t-raw="0"/>
+        </div>
+
+        <div t-attf-class="footer o_standard_footer o_company_#{company.id}_layout">
+            <div class="text-center" style="border-top: 1px solid black;">
+
+                     <div class="row">
+                <div class="col-4">
+                     <h5>info@alwafiresidence.com</h5>
+                </div>
+                <div class="col-4">
+
+                </div>
+                <div class="col-4" style="text-align: right;">
+                     <h5>www.alwafiresidence.com</h5>
+                </div>
+                     </div>
+                <t t-if="report_type == 'pdf'" class="text-muted">
+                    <p>Page: <span class="page"/></p>
+                </t>
+            </div>
+        </div>
+    </template>
+</odoo>
