@@ -5,19 +5,22 @@
                            <div class="o_clean_header">
                                <div class="row">
                             <!-- العمود الأول للصورة الأولى -->
-                            <div class="col-2">
-                                <img src="/delivery_form/static/src/img/Picture1.png" alt="Logo" style="max-height: 100px;"/>
+
+                                   <div class="col-5">
+                                <h6 style="text-align: left; vertical-align: baseline; max-height: 100px;">GOLDEN PURE FOODSTUFF TRADING CO.L.L.C </h6>
+                                       <h6 style="text-align: left; vertical-align: baseline; max-height: 100px;">united Arab Emiates - Dubai - Al Fahidi - Office 43 </h6>
+                            </div>
+
+                            <div class="col-1">
+                                <img src="/Invoice_form_golden_pure/static/src/img/GOLDEN PURE FOODSTUFF TRADING CO.png" alt="Logo" style="max-height: 100px;"/>
                             </div>
 
                             <!-- العمود الثاني للنص -->
-                            <div class="col-8">
-                                <h3 style="text-align: center; vertical-align: baseline; max-height: 100px;">  </h3>
+                            <div class="col-6">
+                                <h6 style="text-align: right; vertical-align: baseline; max-height: 100px;">جولدن بيور لتجارة المواد الغذائية شركة الشخص الواحد ذ.م.م</h6>
+                                <h6 style="text-align: right; vertical-align: baseline; max-height: 100px;">الإمارات العربية المتحدة - دبى - الفهيدى - مكتب رقم 43</h6>
                             </div>
 
-                            <!-- العمود الثالث للصورة الثانية -->
-                            <div class="col-1"  style="text-align: right;">
-                                <img src="/delivery_form/static/src/img/Picture2.png" alt="Logo" style="max-height: 100px;"/>
-                            </div>
                         </div>
 
                     </div>
@@ -35,15 +38,11 @@
             <div class="text-center" style="border-top: 1px solid black;">
 
                      <div class="row">
-                <div class="col-4">
-                     <h5>info@alwafiresidence.com</h5>
+                <div class="col-12">
+                     <h8>For Info: info@goldenpure.ae | For Sales: sales1@goldenpure.ae | Tel: +971 48850038 | Mob: +971 505090058</h8>
                 </div>
-                <div class="col-4">
 
-                </div>
-                <div class="col-4" style="text-align: right;">
-                     <h5>www.alwafiresidence.com</h5>
-                </div>
+
                      </div>
                 <t t-if="report_type == 'pdf'" class="text-muted">
                     <p>Page: <span class="page"/></p>
