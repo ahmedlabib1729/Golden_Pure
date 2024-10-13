@@ -4,22 +4,24 @@
                  <div t-attf-class="header o_company_#{company.id}_layout" t-att-style="report_header_style">
                            <div class="o_clean_header">
                                <div class="row">
+
+                                   <div class="col-2">
+
+                                   </div>
+                               <div class="col-3">
+<img src="/Invoice_form_golden_pure/static/src/img/GOLDEN PURE FOODSTUFF TRADING CO.png" alt="Logo" style="max-width: 150px; max-height: 200px;"/>                                </div>
                             <!-- العمود الأول للصورة الأولى -->
 
-                                   <div class="col-5">
-                                <h6 style="text-align: left; vertical-align: baseline; max-height: 100px;">GOLDEN PURE FOODSTUFF TRADING CO.L.L.C </h6>
-                                       <h6 style="text-align: left; vertical-align: baseline; max-height: 100px;">united Arab Emiates - Dubai - Al Fahidi - Office 43 </h6>
+                                   <div class="col-7" style="padding-top: 20px;">
+
+                                <h6 style="text-align: center; vertical-align: baseline; max-height: 100px;"> <strong>GOLDEN PURE FOODSTUFF TRADING CO.L.L.C </strong>  </h6>
+                                       <h6 style="text-align: center; vertical-align: baseline; max-height: 100px;"><strong>UNITED ARAB EMIRATES-DUBAI-BUR DUBAI-AL FAHIDI-MUNICIPALITY BUILDING-OFFICE 43-44</strong>  </h6>
+                                        <h6 style="text-align: center; vertical-align: baseline; max-height: 100px;"><strong>TRN : 104208389700003</strong>   </h6>
                             </div>
 
-                            <div class="col-1">
-                                <img src="/Invoice_form_golden_pure/static/src/img/GOLDEN PURE FOODSTUFF TRADING CO.png" alt="Logo" style="max-height: 100px;"/>
-                            </div>
 
-                            <!-- العمود الثاني للنص -->
-                            <div class="col-6">
-                                <h6 style="text-align: right; vertical-align: baseline; max-height: 100px;">جولدن بيور لتجارة المواد الغذائية شركة الشخص الواحد ذ.م.م</h6>
-                                <h6 style="text-align: right; vertical-align: baseline; max-height: 100px;">الإمارات العربية المتحدة - دبى - الفهيدى - مكتب رقم 43</h6>
-                            </div>
+
+
 
                         </div>
 
