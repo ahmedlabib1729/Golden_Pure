@@ -107,7 +107,7 @@
                                    <span t-esc="line.product_id.name"/>
                                </td>
                                <td style="text-align:center; font-size: 12px;">
-                                   <span t-esc="line.quantity"/>
+                                   <span t-esc="int(line.quantity)"/>
                                </td>
                                <td style="text-align:right; font-size: 12px;">
                                    <span t-esc="line.price_unit"/>
