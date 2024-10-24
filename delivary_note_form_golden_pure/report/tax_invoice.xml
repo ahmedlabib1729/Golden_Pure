@@ -83,7 +83,7 @@
                    </div>
 
                    <table class="table table-bordered" width="100%" style="border-collapse: collapse; border: 2px solid black;">
-                       <thead style="border: 2px solid black;">
+                       <thead style="border: 2px solid black; background-color: #bbd3c5;">
                            <tr>
                                <th style="text-align:center; font-size: 14px; border: 1px solid;">Seq.</th>
                                <th style="text-align:center; font-size: 14px; border: 1px solid;">Item</th>
