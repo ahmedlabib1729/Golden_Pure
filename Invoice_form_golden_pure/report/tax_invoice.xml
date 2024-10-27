@@ -51,13 +51,11 @@
                        <div class="col-2  ">
                                <strong>Customer :</strong>
                        </div>
-                       <div class="col-4" >
+                       <div class="col-5" >
 
                                <span t-field="o.partner_id"/>
                        </div>
-                       <div class="col-1">
 
-                       </div>
 
                        <div class="col-1">
 
@@ -74,14 +72,19 @@
 
                    <div class="row" style="height: 30px;">
 
-                      <div class="col-1">
+                      <div class="col-2">
 
                        </div>
 
-                       <div class="col-1">
+                       <div class="col-4">
 
                        </div>
+                         <div class="col-1">
 
+                       </div>
+                        <div class="col-1">
+
+                       </div>
 
                       <div class="col-2"  style="text-align: right;">
                                <strong>Mobile :</strong>
