@@ -11,7 +11,7 @@
 
 
                <div class="page">
-                    <hr style="border: 1px solid #000000;"/>
+                    <hr style="border: 1px solid #000000; "/>
                       <h2 style="text-align:center; color: #000000; height: 50px; " width="10%"></h2>
 
                    <h4 style="text-align:center; color: #000000; height: 50px; font-family: Arial;" width="10%"> فـاتورة ضـريبية</h4>
