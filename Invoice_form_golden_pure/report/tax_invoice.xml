@@ -35,10 +35,10 @@
                        <div class="col-1">
 
                        </div>
-                       <div class="col-2" style="text-align: right;">
+                       <div class="col-2" style="text-align: left;">
                                <strong style="text-align: right;">Invoice NO. : </strong>
                        </div>
-                       <div class="col-2" style="text-align: right;">
+                       <div class="col-2" style="text-align: lft;">
 
                                  <span t-field="o.name"/>
                        </div>
@@ -61,23 +61,24 @@
 
                        </div>
 
-                       <div class="col-2 " style="text-align: right; ">
+                       <div class="col-2 " style="text-align: left; ">
                                <strong>Customer TRN :</strong>
                        </div>
-                       <div class="col-2" style="text-align: right;">
+                       <div class="col-2" style="text-align: left;">
 
                                 <span t-field="o.partner_id.vat"/>
                        </div>
                    </div>
 
+
                    <div class="row" style="height: 30px;">
 
-                      <div class="col-2">
-
+                      <div class="col-2"  style="text-align: left;">
+                               <strong>Mobile :</strong>
                        </div>
+                       <div class="col-2" style="text-align: left;">
 
-                       <div class="col-4">
-
+                               <span t-field="o.partner_id.phone"/>
                        </div>
                          <div class="col-1">
 
@@ -85,15 +86,49 @@
                         <div class="col-1">
 
                        </div>
+                       <div class="col-1">
 
-                      <div class="col-2"  style="text-align: right;">
-                               <strong>Mobile :</strong>
                        </div>
-                       <div class="col-2" style="text-align: right;">
+                       <div class="col-1">
 
-                               <span t-field="o.partner_id.phone"/>
+                       </div>
+
+                      <div class="col-2"  style="text-align: left   ;">
+                               <strong>Customer Ref :</strong>
+                       </div>
+                       <div class="col-2" style="text-align: left;">
+
+                               <span t-field="o.ref"/>
                        </div>
                    </div>
+
+                   <div class="row" style="height: 30px;">
+
+                      <div class="col-2"  style="text-align: left;">
+                               <strong>Address :</strong>
+                       </div>
+                       <div class="col-7" style="text-align: left;">
+
+                               <span t-field="o.partner_id.street"/>
+                          , <span t-field="o.partner_id.state_id"/>
+
+                           , <span t-field="o.partner_id.country_id"/>
+
+                       </div>
+                         <div class="col-1">
+
+                       </div>
+                       <div class="col-1">
+
+                       </div>
+                        <div class="col-1">
+
+                       </div>
+
+                   </div>
+
+
+
 
                    <table class="table table-bordered" width="100%" style="border-collapse: collapse; border: 2px solid black;">
                        <thead style="border: 2px solid black; background-color: #bbd3c5;">
@@ -201,6 +236,25 @@
                        </div>
                        <div class="col-2" style="text-align: right;">
                                  <span t-field="o.amount_total"/>
+                       </div>
+                   </div>
+
+
+                   <div class="row">
+
+                       <div class="col-7">
+                        <span t-field="o.narration"/>
+                       </div>
+
+                       <div class="col-1">
+
+                       </div>
+
+                        <div class="col-1">
+
+                       </div>
+                        <div class="col-1">
+
                        </div>
                    </div>
 
